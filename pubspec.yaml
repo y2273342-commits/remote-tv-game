@@ -1,0 +1,18 @@
+name: remote_tv_game
+description: ريموت تيفي قيم - WiFi Bluetooth Mirroring PS5
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.5
+  permission_handler: ^11.3.1
+  flutter_blue_plus: ^1.32.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+flutter:
+  uses-material-design: true
